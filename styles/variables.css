@@ -11,4 +11,6 @@
   --display: flex;
   --focus-color: #db00ff;
   --border-color: #ff0070;
+  --menu-color: #ff0070; 
+  --hover-color: rgba(255, 0, 112, 0.4);
 }

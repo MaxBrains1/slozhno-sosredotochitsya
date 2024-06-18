@@ -16,5 +16,7 @@
   --display: none;
   --focus-color: #FFC2E6;
   --border-color: #353430;
+  --menu-color: #353430; 
+  --hover-color:rgba(50, 49, 45, 0.4);
 }
 
