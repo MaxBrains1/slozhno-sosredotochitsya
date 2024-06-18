@@ -269,7 +269,6 @@
   width: 25px;
   height: 25px;
   align-self: flex-end;
-
 }
 
 .footer-text {
@@ -485,8 +484,8 @@ body.theme_light .header__theme-menu {
     max-inline-size: 315px;
   }
 
-  .long_section .section_title { 
-    grid-row: span 6; 
+  .long_section .section_title {
+    grid-row: span 6;
   }
 
   .gallery_section {
@@ -525,5 +524,3 @@ body.theme_light .header__theme-menu {
     grid-row: 3;
   }
 }
-
-
