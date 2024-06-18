@@ -250,27 +250,6 @@
   position: relative;
 }
 
-.decorated-zone::before {
-  align-self: start;
-  justify-self: end;
-  position: absolute;
-  content: "";
-  border-right: 1px solid var(--border-color);
-  border-top: 1px solid var(--border-color);
-  width: 25px;
-  height: 24px;
-}
-
-.decorated-zone::after {
-  position: absolute;
-  content: "";
-  border-bottom: 1px solid var(--border-color);
-  border-left: 1px solid var(--border-color);
-  width: 25px;
-  height: 25px;
-  align-self: flex-end;
-}
-
 .footer-text {
   font-family: var(--font-family);
   font-weight: 700;
