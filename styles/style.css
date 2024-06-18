@@ -535,6 +535,7 @@ body.theme_light .header__theme-menu {
 
   body {
     --accent-color: #ff8dcb;
+    --background-color: #fff1f7;
     --title-color: #353430;
     --main-text-color: #353430;
     --background-image: url(../images/cover-image-light.png);
@@ -548,6 +549,7 @@ body.theme_light .header__theme-menu {
 
 @media (prefers-color-scheme: dark) {
   body {
+    --background-color: #000028;
     --font-family: "IBM Plex Mono";
     --accent-color: #ff0070;
     --title-color: #000028;
