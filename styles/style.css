@@ -5,6 +5,7 @@
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
+  background-color: var(--background-color);
 }
 
 .header {
@@ -111,17 +112,17 @@
 }
 
 .header__theme-menu-button:hover {
-  cursor: pointer ;
+  cursor: pointer;
   outline: 1px solid var(--hover-color);
 }
 
 .header__theme-menu-button_active {
   outline: 1px solid var(--menu-color);
-  pointer-events: none
+  pointer-events: none;
 }
 
 .header__theme-menu-button:focus {
-  outline:  none;
+  outline: none;
 }
 
 .header__theme-menu-button:focus-visible {
@@ -205,7 +206,6 @@
 .text_link:focus {
   outline: none;
   background-color: transparent;
-
 }
 
 .text_link:focus-visible {
@@ -282,7 +282,6 @@
   color: var(--focus-color);
   text-shadow: 2px 2px 0 var(--accent-color);
 }
-
 
 body.theme_light .section_title {
   color: var(--main-text-color);
@@ -536,31 +535,27 @@ body.theme_light .header__theme-menu {
 
   body {
     --accent-color: #ff8dcb;
-    --title-color:  #353430;
+    --title-color: #353430;
     --main-text-color: #353430;
     --background-image: url(../images/cover-image-light.png);
     --display: none;
-    --focus-color: #FFC2E6;
+    --focus-color: #ffc2e6;
     --border-color: #353430;
-    --menu-color: #353430; 
-    --hover-color:rgba(50, 49, 45, 0.4);
+    --menu-color: #353430;
+    --hover-color: rgba(50, 49, 45, 0.4);
   }
-
-
 }
 
 @media (prefers-color-scheme: dark) {
   body {
-    --font-family: 'IBM Plex Mono';
+    --font-family: "IBM Plex Mono";
     --accent-color: #ff0070;
     --title-color: #000028;
     --main-text-color: #f1b2ce;
     --background-image: url(../images/cover-image-dark.png);
     --display: flex;
     --focus-color: #db00ff;
-    --menu-color: #ff0070; 
+    --menu-color: #ff0070;
     --hover-color: rgba(255, 0, 112, 0.4);
   }
 }
-
-

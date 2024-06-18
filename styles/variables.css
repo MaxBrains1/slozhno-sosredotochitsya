@@ -3,7 +3,8 @@
   и их переопределение под различные устройства
 */
 :root {
-  --font-family: 'IBM Plex Mono';
+  --background-color: #000028;
+  --font-family: "IBM Plex Mono";
   --accent-color: #ff0070;
   --title-color: #000028;
   --main-text-color: #f1b2ce;
@@ -11,6 +12,6 @@
   --display: flex;
   --focus-color: #db00ff;
   --border-color: #ff0070;
-  --menu-color: #ff0070; 
+  --menu-color: #ff0070;
   --hover-color: rgba(255, 0, 112, 0.4);
 }

@@ -10,13 +10,13 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --accent-color: #ff8dcb;
-  --title-color:  #353430;
+  --background-color: #fff1f7;
+  --title-color: #353430;
   --main-text-color: #353430;
   --background-image: url(../images/cover-image-light.png);
   --display: none;
-  --focus-color: #FFC2E6;
+  --focus-color: #ffc2e6;
   --border-color: #353430;
-  --menu-color: #353430; 
-  --hover-color:rgba(50, 49, 45, 0.4);
+  --menu-color: #353430;
+  --hover-color: rgba(50, 49, 45, 0.4);
 }
-
